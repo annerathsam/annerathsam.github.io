@@ -57,7 +57,7 @@ plugins:
 author:
   name   : "Anne Rathsam"
   avatar : "/assets/images/picture.jpg"
-  bio    : "Ph.D. candidate at the Institute of Astronomy, Geophysics and Atmospheric Sciences, University of São Paulo, Brazil. Focused on high-precision chemical abundances of solar-type"
+  bio    : "Ph.D. candidate at the Institute of Astronomy, Geophysics and Atmospheric Sciences, University of São Paulo, Brazil. Focused on high-precision chemical abundances of solar-type stars."
   links:
     - label: "Download CV"
       icon: "fas fa-fw fa-file-pdf"   # PDF icon from FontAwesome
