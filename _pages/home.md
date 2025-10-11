@@ -5,6 +5,4 @@ permalink: /
 author_profile: true
 ---
 
-# Home page
-
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+work in progress....
