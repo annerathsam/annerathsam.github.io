@@ -1,5 +1,5 @@
 main:
   - title: "Publications"
-    url: _pages/publications/
+    url: _pages/publications.md
   - title: "Conferences"
-    url: _pages/conferences/
+    url: _pages/conferences.md
