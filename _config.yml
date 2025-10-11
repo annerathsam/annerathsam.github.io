@@ -62,7 +62,7 @@ author:
   avatar : "/assets/images/picture.jpg"
   bio    : "Ph.D. candidate at the Institute of Astronomy, Geophysics and Atmospheric Sciences, University of São Paulo, Brazil. Focused on high-precision chemical abundances of solar-type stars."
   links:
-    - label: "e-mail:"
+    - label: "e-mail: annerathsam@usp.br"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:annerathsam@usp.br"
     - label: "Download CV"
