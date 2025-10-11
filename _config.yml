@@ -50,7 +50,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+#  - jekyll-feed
   - jemoji
   - jekyll-include-cache
 
@@ -65,7 +65,7 @@ author:
     - label: "e-mail: annerathsam@usp.br"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:annerathsam@usp.br"
-    - label: "Download CV"
+    - label: "CV"
       icon: "fas fa-fw fa-file-pdf"   # PDF icon from FontAwesome
       url: "/assets/CV.pdf"
 
