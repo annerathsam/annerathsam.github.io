@@ -54,6 +54,9 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+header_pages:
+  - _pages/home.md
+
 author:
   name   : "Anne Rathsam"
   avatar : "/assets/images/picture.jpg"
