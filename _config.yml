@@ -71,7 +71,7 @@ author:
 
 footer:
   links:
-      - label: "Orcid"
+    - label: "Orcid"
       icon: "fab fa-fw fa-orcid"
       url: "https://orcid.org/0000-0001-7016-4623"
     - label: "Lattes"
