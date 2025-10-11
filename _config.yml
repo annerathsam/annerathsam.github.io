@@ -56,21 +56,12 @@ plugins:
 
 author:
   name   : "Anne Rathsam"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/picture.jpg"
   bio    : "Ph.D. candidate at the Institute of Astronomy, Geophysics and Atmospheric Sciences, University of São Paulo, Brazil. Focused on high-precision chemical abundances of solar-type"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "Download CV"
+      icon: "fas fa-fw fa-file-pdf"   # PDF icon from FontAwesome
+      url: "/assets/files/CV.pdf"
 
 footer:
   links:
