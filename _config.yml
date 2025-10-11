@@ -61,7 +61,7 @@ author:
   links:
     - label: "Download CV"
       icon: "fas fa-fw fa-file-pdf"   # PDF icon from FontAwesome
-      url: "/assets/files/CV.pdf"
+      url: "/assets/CV.pdf"
 
 footer:
   links:
