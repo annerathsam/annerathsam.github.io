@@ -118,7 +118,7 @@ Type: poster
 
 ---
 
-<br><br><br>
+<br><br>
 
 # Conference organization
 ---
