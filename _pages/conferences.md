@@ -127,5 +127,3 @@ LOC member
 **Practical Precision Spectroscopy Workshop**  
 São Paulo, Brazil (01/2023)  
 LOC member
-
-LOC Member
