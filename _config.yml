@@ -19,6 +19,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Ph.D. candidate at the Institute of Astronomy, Geophysics and Atmospheric Sciences, University of São Paulo, Brazil.
 github_username: annerathsam
 minimal_mistakes_skin: dark
+feed:
+  auto: false
 custom_css:
   - /assets/css/custom.css
 search: false
@@ -73,9 +75,6 @@ author:
     - label: "CV"
       icon: "fas fa-fw fa-file-pdf"   # PDF icon from FontAwesome
       url: "/assets/CV.pdf"
-      
-feed:
-  auto: false
 
 footer:
   links:
