@@ -1,0 +1,15 @@
+<footer class="site-footer" role="contentinfo">
+  <nav class="footer-links">
+    <ul>
+      {% for link in site.footer.links %}
+        <li>
+          <a href="{{ link.url | relative_url }}" title="{{ link.label }}">
+            {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
+            {{ link.label }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+  <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+</footer>
