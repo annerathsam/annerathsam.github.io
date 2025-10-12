@@ -5,7 +5,7 @@ layout: single
 ---
 
 Carvalho Silva, G.; Meléndez, J.; **Rathsam, A.** et al., 2025, ApJL, vol. 983, p. L31  
-*A new age–activity relation for solar analogs that accounts for metallicity*  
+*A new age-activity relation for solar analogs that accounts for metallicity*  
 [ADS link](https://ui.adsabs.harvard.edu/abs/2025ApJ...983L..31C/abstract)  
 
 ---
