@@ -1,9 +1,9 @@
 <footer class="site-footer" role="contentinfo">
   <nav class="footer-links">
-    <ul>
+    <ul class="footer-links-list">
       {% for link in site.footer.links %}
-        <li>
-          <a href="{{ link.url | relative_url }}" title="{{ link.label }}">
+        <li class="footer-links-item">
+          <a href="{{ link.url | relative_url }}" title="{{ link.label }}" target="_blank" rel="noopener" class="footer-links-link">
             {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
             {{ link.label }}
           </a>
