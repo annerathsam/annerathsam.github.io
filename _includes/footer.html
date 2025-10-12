@@ -1,10 +1,10 @@
 <footer class="site-footer" role="contentinfo">
   <div class="container">
     <nav class="footer-links" aria-label="Footer navigation">
-      <ul class="list-inline">
+      <ul style="display: flex; gap: 1.5rem; flex-wrap: wrap; list-style: none; padding: 0; margin: 0;">
         {% for link in site.footer.links %}
-          <li class="list-inline-item">
-            <a href="{{ link.url | relative_url }}" title="{{ link.label }}" target="_blank" rel="noopener">
+          <li>
+            <a href="{{ link.url | relative_url }}" title="{{ link.label }}" target="_blank" rel="noopener" style="text-decoration: none; display: flex; align-items: center; gap: 0.5rem;">
               {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
               {{ link.label }}
             </a>
@@ -12,6 +12,11 @@
         {% endfor %}
       </ul>
     </nav>
-    <p class="site-footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+    <p class="site-footer-copy" style="margin-top: 1rem; font-size: 0.9rem; color: #666;">
+      &copy; {{ site.time | date: "%Y" }} {{ site.title }} &mdash; Powered by
+      <a href="https://mmistakes.github.io/minimal-mistakes/" target="_blank" rel="noopener">
+        Minimal Mistakes
+      </a>
+    </p>
   </div>
 </footer>
