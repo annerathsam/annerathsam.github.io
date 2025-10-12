@@ -12,11 +12,11 @@ author_profile: true
 
 
 # EDUCATION
-**Ph.D. in Astronomy**
-Institute of Astronomy, Geophysics and Atmospheric Sciences, University of São Paulo, Brazil
-Thesis: Lithium in open clusters and field stars
+**Ph.D. in Astronomy**  
+Institute of Astronomy, Geophysics and Atmospheric Sciences, University of São Paulo, Brazil  
+Thesis: Lithium in open clusters and field stars  
 2022 - current
 
-**B.Sc. in Astronomy**
-University of São Paulo, Brazil
+**B.Sc. in Astronomy**  
+University of São Paulo, Brazil  
 2018 - 2022
