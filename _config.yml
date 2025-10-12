@@ -73,6 +73,9 @@ author:
     - label: "CV"
       icon: "fas fa-fw fa-file-pdf"   # PDF icon from FontAwesome
       url: "/assets/CV.pdf"
+      
+feed:
+  auto: false
 
 footer:
   links:
