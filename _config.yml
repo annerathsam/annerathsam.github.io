@@ -22,7 +22,7 @@ minimal_mistakes_skin: dark
 feed:
   auto: false
 custom_css:
-  - /assets/css/custom.css
+  - /assets/css/main.css
 search: false
 
 # Build settings
