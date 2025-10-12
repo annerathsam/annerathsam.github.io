@@ -23,7 +23,7 @@ Shejeelammal, J.; Meléndez, J.; **Rathsam, A.**; Martos, G., 2024, A&A, vol. 69
 ---
 
 **Rathsam, A.** Meléndez, J.; Carvalho Silva, G., 2023, MNRAS, vol. 525, p. 4642  
-*Lithium depletion in solar analogs: age and mass effects*
+*Lithium depletion in solar analogs: age and mass effects*  
 [ADS link](https://ui.adsabs.harvard.edu/abs/2023MNRAS.525.4642R/abstract)  
 
 ---
