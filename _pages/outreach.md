@@ -9,4 +9,4 @@ Service offered by IAG/USP to schools every Tuesday and Thursday, with the goal 
 <br>
 04/2024 - present  
 <br>
-[Web page (Portuguese):](https://www.iag.usp.br/cultext/projetos/atendimento)
+[Web page (Portuguese)](https://www.iag.usp.br/cultext/projetos/atendimento)
