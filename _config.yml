@@ -21,7 +21,7 @@ github_username: annerathsam
 minimal_mistakes_skin: dark
 custom_css:
   - /assets/css/custom.css
-search: true
+search: false
 
 # Build settings
 markdown: kramdown
