@@ -19,6 +19,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Ph.D. candidate at the Institute of Astronomy, Geophysics and Atmospheric Sciences, University of São Paulo, Brazil.
 github_username: annerathsam
 minimal_mistakes_skin: dark
+custom_css:
+  - /assets/css/custom.css
 search: true
 
 # Build settings
