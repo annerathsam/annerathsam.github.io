@@ -4,7 +4,7 @@ permalink: /press_releases/
 layout: single
 ---
 
-**Rathsam et al. (2023, MNRAS, 525, 4642)**  
+**Rathsam et al. (2023, MNRAS, 525, 4642):**  
 *Brazilian media:*  
 - [Agência FAPESP](https://agencia.fapesp.br/astronomos-estudam-quimica-estelar-em-busca-de-exoplanetas/50191)
 - [Jornal da USP](https://jornal.usp.br/ciencias/astronomos-estudam-quimica-das-estrelas-em-busca-de-planetas-fora-do-sistema-solar/)
