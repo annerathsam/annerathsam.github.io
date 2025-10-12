@@ -68,7 +68,7 @@ Type: talk
 
 ---
 
-***exoLaTam22 (workshop)**  
+**exoLaTam22 (workshop)**  
 Santiago, Chile (12/2022)  
 Title: Lithium depletion in solar analogs  
 Type: flash talk
