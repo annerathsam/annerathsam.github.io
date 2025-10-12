@@ -5,6 +5,7 @@ layout: single
 ---
 
 # Presentations and posters  
+---
 **XLVIII Annual Meeting of the Brazilian Astronomical Society**   
 Caxambu, Brazil (09/2025)  
 Title: Assessing the planet engulfment hypothesis in a chemically anomalous binary pair  
@@ -117,7 +118,10 @@ Type: poster
 
 ---
 
+<br><br><br>
+
 # Conference organization
+---
 **IAU Symposium 395: Stellar populations in the Milky Way and beyond**  
 Paraty, Brazil (11/2024)  
 LOC member
