@@ -65,6 +65,9 @@ author:
     - label: "e-mail: annerathsam@usp.br"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:annerathsam@usp.br"
+    - label: "ADS/NASA"
+      icon: "fas fa-search"
+      url: "https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=author%3A%22Rathsam%2C%20A%22&sort=date%20desc%2C%20bibcode%20desc&p_=0"
     - label: "CV"
       icon: "fas fa-fw fa-file-pdf"   # PDF icon from FontAwesome
       url: "/assets/CV.pdf"
