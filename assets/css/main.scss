@@ -1,16 +1,11 @@
----
----
-
-@import "minimal-mistakes";  // load the default theme styles
-
 /* --- Mobile Follow Button Override --- */
 @media (max-width: 768px) {
   .social-links__follow span {
-    display: none; /* hide original text */
+    display: none; /* hide original "Follow" text */
   }
 
   .social-links__follow::after {
-    content: "More"; /* your custom text */
+    content: "More"; /* replacement text */
     display: inline-block;
     font-weight: bold;
   }
@@ -18,6 +13,13 @@
 
 /* --- Smaller font for main content on all pages --- */
 .page__content {
-  font-size: 0.8rem; /* smaller text */
-  line-height: 1.5;  /* adjust for readability */
+  font-size: 0.75rem;   /* On desktop */
+  line-height: 1.6;
+}
+
+/* On mobile screens */
+@media (max-width: 768px) {
+  .page__content {
+    font-size: 0.7rem;
+  }
 }
