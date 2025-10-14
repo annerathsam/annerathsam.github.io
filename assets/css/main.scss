@@ -1,23 +1,39 @@
 /* --- Mobile Follow Button Override --- */
 @media (max-width: 768px) {
-  .social-links__follow span {
-    display: none; /* hide original "Follow" text */
+  /* Target the mobile Follow button */
+  button.btn.btn--inverse {
+    position: relative;
   }
 
-  .social-links__follow::after {
-    content: "More"; /* replacement text */
-    display: inline-block;
+  /* Hide the original text */
+  button.btn.btn--inverse span,
+  button.btn.btn--inverse {
+    color: transparent; /* hides text */
+  }
+
+  /* Insert the new text visually */
+  button.btn.btn--inverse::after {
+    content: "More";  /* your replacement text */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    color: inherit;    /* keeps button color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: bold;
   }
 }
 
-/* --- Smaller font for main content on all pages --- */
+/* --- Fonts --- */
 .page__content {
-  font-size: 0.75rem;   /* On desktop */
+  font-size: 0.75rem;   /* smaller desktop font */
   line-height: 1.6;
 }
 
-/* On mobile screens */
+/* Slightly smaller font on mobile screens */
 @media (max-width: 768px) {
   .page__content {
     font-size: 0.7rem;
