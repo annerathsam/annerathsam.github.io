@@ -1,28 +1,15 @@
 /* --- Mobile Follow Button Override --- */
 @media (max-width: 768px) {
-  /* Target the mobile Follow button */
-  button.btn.btn--inverse {
-    position: relative;
+  /* Target only the author/profile mobile follow button */
+  .author__urls-wrapper > .btn.btn--inverse span,
+  .author__urls-wrapper > .btn.btn--inverse {
+    display: none;  /* hides the original text */
   }
 
-  /* Hide the original text */
-  button.btn.btn--inverse span,
-  button.btn.btn--inverse {
-    color: transparent; /* hides text */
-  }
-
-  /* Insert the new text visually */
-  button.btn.btn--inverse::after {
-    content: "More";  /* your replacement text */
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    color: inherit;    /* keeps button color */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  /* Add the replacement text */
+  .author__urls-wrapper > .btn.btn--inverse::after {
+    content: "More";
+    display: inline-block;
     font-weight: bold;
   }
 }
@@ -36,6 +23,6 @@
 /* Slightly smaller font on mobile screens */
 @media (max-width: 768px) {
   .page__content {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
   }
 }
