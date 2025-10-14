@@ -1,12 +1,14 @@
-/* --- Main content font size (all pages) --- */
-main.page__main div.page__content {
+/* --- Main content font size (all pages/posts) --- */
+main.page__main div.page__content,
+main.page__main article.page__content {
   font-size: 0.75rem !important;
-  line-height: 1.4 !important; /* adjust for readability */
+  line-height: 1.4 !important;
 }
 
 /* --- Mobile adjustment --- */
 @media (max-width: 768px) {
-  main.page__main div.page__content {
+  main.page__main div.page__content,
+  main.page__main article.page__content {
     font-size: 0.75rem !important;
     line-height: 1.4 !important;
   }
