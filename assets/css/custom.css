@@ -1,15 +1,62 @@
-/* --- Main content font size (all pages/posts) --- */
-main.page__main div.page__content,
-main.page__main article.page__content {
+/* ------------------------------
+   MAIN CONTENT FONT SIZE
+   ------------------------------ */
+
+/* Targets all content containers */
+body main.page__main .page__content,
+body main.page__main article.page__content,
+body main.page__main section.page__content {
   font-size: 0.75rem !important;
   line-height: 1.4 !important;
 }
 
-/* --- Mobile adjustment --- */
+/* ------------------------------
+   HEADINGS SCALED PROPORTIONALLY
+   ------------------------------ */
+body main.page__main .page__content h1 {
+  font-size: 1.2rem !important;
+}
+
+body main.page__main .page__content h2 {
+  font-size: 1.1rem !important;
+}
+
+body main.page__main .page__content h3 {
+  font-size: 1rem !important;
+}
+
+body main.page__main .page__content h4,
+body main.page__main .page__content h5,
+body main.page__main .page__content h6 {
+  font-size: 0.95rem !important;
+}
+
+/* ------------------------------
+   MOBILE ADJUSTMENTS
+   ------------------------------ */
 @media (max-width: 768px) {
-  main.page__main div.page__content,
-  main.page__main article.page__content {
+  body main.page__main .page__content,
+  body main.page__main article.page__content,
+  body main.page__main section.page__content {
     font-size: 0.75rem !important;
     line-height: 1.4 !important;
+  }
+
+  body main.page__main .page__content h1 {
+    font-size: 1.15rem !important;
+  }
+
+  body main.page__main .page__content h2 {
+    font-size: 1.05rem !important;
+  }
+
+  body main.page__main .page__content h3 {
+    font-size: 0.95rem !important;
+  }
+
+  body main.page__main .page__content h4,
+  body main.page__main .page__content h5,
+  body main.page__main .page__content h6 {
+    font-size: 0.9rem !important;
   }
 }
