@@ -1,28 +1,11 @@
-/* --- Mobile Follow Button Override --- */
-@media (max-width: 768px) {
-  /* Target only the author/profile mobile follow button */
-  .author__urls-wrapper > .btn.btn--inverse span,
-  .author__urls-wrapper > .btn.btn--inverse {
-    display: none;  /* hides the original text */
-  }
-
-  /* Add the replacement text */
-  .author__urls-wrapper > .btn.btn--inverse::after {
-    content: "More";
-    display: inline-block;
-    font-weight: bold;
-  }
-}
-
 /* --- Fonts --- */
 .page__content {
-  font-size: 0.75rem;   /* smaller desktop font */
-  line-height: 1.6;
+  font-size: 0.75rem !important;   /* Desktop font */
+  line-height: 1.5 !important;
 }
 
-/* Slightly smaller font on mobile screens */
 @media (max-width: 768px) {
   .page__content {
-    font-size: 0.75rem;
+    font-size: 0.75rem !important; /*Mobile screens */
   }
 }
