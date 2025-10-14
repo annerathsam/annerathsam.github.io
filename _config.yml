@@ -23,13 +23,6 @@ feed:
   auto: false
 search: false
 
-defaults:
-  - scope:
-      path: ""
-    values:
-      ui_text:
-        follow_label: "More"
-
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
