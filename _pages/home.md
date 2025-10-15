@@ -15,6 +15,7 @@ author_profile: true
 **Ph.D. in Astronomy**  
 Institute of Astronomy, Geophysics and Atmospheric Sciences, University of São Paulo, Brazil  
 Thesis: Lithium in open clusters and field stars  
+Advisor: Prof. Dr. Jorge Meléndez  
 2022 - current
 
 **B.Sc. in Astronomy**  
